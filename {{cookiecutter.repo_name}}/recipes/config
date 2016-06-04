@@ -1,0 +1,11 @@
+# REQUREMENTS for development
+REQUREMENTS := requirements/dev.txt
+
+# docs
+DOCS_DIR := docs
+
+# statics
+STATIC_DIR := $(PROJECT)/static
+
+# scripts
+SCRIPT_DIR := $(LOCALPATH)/bin

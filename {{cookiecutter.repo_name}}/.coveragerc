@@ -1,0 +1,16 @@
+[run]
+branch = true
+
+[report]
+omit =
+    *site-packages*
+    *tests*
+    *.tox*
+    *conftest*
+    *virtuals*
+    *migrations*
+    *wsgi*
+    {{ cookiecutter.repo_name }}/__init__*
+    {{ cookiecutter.repo_name }}/manage*
+    {{ cookiecutter.repo_name }}/app*
+show_missing = True

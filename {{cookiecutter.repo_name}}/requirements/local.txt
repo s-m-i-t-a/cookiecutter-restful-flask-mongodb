@@ -1,0 +1,6 @@
+# Everything the developer needs in addition to the dev requirements
+# and isn't needed for testing
+-r dev.txt
+
+# generuje tagy pro baliky ve virtualenv
+z3c.recipe.tag
