@@ -1,0 +1,25 @@
+export PYTHONPATH="$(pwd)/{{ cookiecutter.repo_name }}:$PYTHONPATH"
+
+export DB_ENGINE="mongodb"
+export DB_NAME=${DB_NAME:-"{{ cookiecutter.repo_name }}"}
+export APP_CONFIGURATION="Development"
+export SECRET_KEY="zmentotonanejakybezpecnyklic"
+export DATABASE_URL="$DB_ENGINE://localhost/$DB_NAME"
+
+export API_BASE_URL="/api/v0.1/"
+
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
+export AWS_STORAGE_BUCKET_NAME=""
+export AWS_DEFAULT_REGION=""
+
+export CDN_DOMAIN=""
+
+export DEBUG="False"
+
+export MAIL_SERVER=""
+export MAIL_PORT=""
+export MAIL_USERNAME=""
+export MAIL_PASSWORD=""
+export MAIL_DEFAULT_SENDER=""
+
