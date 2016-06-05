@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask
-from flask.ext.mongoengine import MongoEngine
+from flask_mongoengine import MongoEngine
 from werkzeug.contrib.fixers import ProxyFix
 
 from config.blueprints import register_blueprints

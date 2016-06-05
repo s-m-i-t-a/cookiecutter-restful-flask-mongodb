@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Blueprint
-from flask.ext import restful
+from flask_restful import Api
 
 # from bar.foo import FooResource
 
@@ -9,7 +9,7 @@ from flask.ext import restful
 def api_urls(app):
     urls = Blueprint('api', __name__)
 
-    api = restful.Api()
+    api = Api()
     api.init_app(urls)
 
     # URLs
