@@ -6,6 +6,7 @@ from werkzeug.contrib.fixers import ProxyFix
 
 from config.blueprints import register_blueprints
 from signals import register_signals
+from utils import get_api_version
 
 __version__ = '0.1.0'
 
